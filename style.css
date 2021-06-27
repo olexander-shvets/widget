@@ -1,0 +1,79 @@
+.new_f-wrapper-bg-imgs {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url(./img/sea.jpg) no-repeat;
+}
+
+.new_f-title {
+    color: transparent;
+    height: 1px;
+}
+
+.new_f-form .new_f-ext-btn {
+    background-color: #fff;
+    padding: 7px 60px 7px 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.new_f-ext-btn-text {
+    color: #666;
+}
+
+.new_f-ext-btn-text::before {
+    content: '';
+    position: absolute;
+    left: 173px;
+    top: 7px;
+    border-color: #4C9CE0 transparent transparent;
+    border-style: solid;
+    border-width: 6px 4px 0;
+    height: 0;
+    width: 0;
+}
+
+.new_f-form-field, .new_f-form .new_f-form-submit {
+    height: 70px;
+}
+.new_f-dropdown-btn {
+    padding-top: 20px;
+}
+.new_f-dropdown-btn .cnt::after, .new_f-dropdown-btn::after {
+    content: '';
+    position: absolute;
+    top: 25px;
+    right: 8px;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 4px 0;
+    border-color: #4C9CE0 transparent transparent;
+}
+.new_f-form .new_f-form-submit {
+    border-radius: 0 3px 3px 0;
+    box-shadow: none;
+    color: #ffffff !important;
+    margin: 0;
+    padding: 0;
+    width: 107px;
+    transition: background .5s ease !important;
+}
+
+.new_not-found-message .os-order-form-submit_button, .new_f-ext-container .new_f-dropdown-btn-apply, .new_f-form .new_f-form-submit {
+    background: #1BB5E4;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.new_f-form-field.to {
+    border-top-left-radius: 50px;
+}
+.new_f-dropdown-btn .cnt {
+    background-color: #fff;
+}
+.new_f-autocomplete-input, .new_input-mask {
+    padding: 20px 24px 0 15px !important;
+}
